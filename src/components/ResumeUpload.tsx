@@ -125,7 +125,7 @@ const ResumeUpload = ({ onUploadComplete }: ResumeUploadProps) => {
             Upload Your <span className="gradient-text">Resume</span>
           </h1>
           <p className="text-xl text-foreground/70">
-            Get AI-powered insights and personalized career guidance in minutes
+            Get expert insights and personalized career guidance in minutes
           </p>
         </div>
 
