@@ -4,10 +4,10 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { 
-  TrendingUpIcon, 
-  BrainIcon, 
-  MapIcon, 
+import {
+  TrendingUpIcon,
+  CompassIcon,
+  MapIcon,
   TargetIcon,
   CheckCircleIcon,
   ClockIcon,
@@ -62,7 +62,7 @@ const CareerDashboard = ({ resumeData }: CareerDashboardProps) => {
             <div className="flex space-x-3 mt-4 lg:mt-0">
               <Button variant="outline" className="hover:scale-105 transition-smooth">
                 <MessageSquareIcon className="w-4 h-4 mr-2" />
-                AI Advisor
+                Career Advisor
               </Button>
               <Button variant="hero">
                 <DownloadIcon className="w-4 h-4 mr-2" />
@@ -155,8 +155,8 @@ const CareerDashboard = ({ resumeData }: CareerDashboardProps) => {
               <span>Career Paths</span>
             </TabsTrigger>
             <TabsTrigger value="advisor" className="flex items-center space-x-2">
-              <BrainIcon className="w-4 h-4" />
-              <span>AI Advisor</span>
+              <CompassIcon className="w-4 h-4" />
+              <span>Career Advisor</span>
             </TabsTrigger>
           </TabsList>
 
@@ -247,16 +247,16 @@ const CareerDashboard = ({ resumeData }: CareerDashboardProps) => {
             </Card>
           </TabsContent>
 
-          {/* AI Advisor Tab */}
+          {/* Career Advisor Tab */}
           <TabsContent value="advisor">
             <Card className="p-6 glass-card">
               <div className="text-center py-12">
                 <div className="w-16 h-16 mx-auto mb-6 rounded-full gradient-bg flex items-center justify-center">
-                  <BrainIcon className="w-8 h-8 text-white" />
+                  <CompassIcon className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">AI Career Advisor</h3>
+                <h3 className="text-2xl font-semibold mb-4">Career Advisor</h3>
                 <p className="text-foreground/70 mb-6 max-w-2xl mx-auto">
-                  Chat with your personal AI career coach. Get instant answers to career questions,
+                  Chat with your personal career coach. Get instant answers to career questions,
                   strategic advice, and personalized recommendations.
                 </p>
                 <Button variant="hero" size="lg">

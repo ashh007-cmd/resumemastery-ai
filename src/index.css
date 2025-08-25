@@ -39,7 +39,7 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    /* Career Compass Design System */
+    /* Application Design System */
     --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(262 83% 58%));
     --gradient-secondary: linear-gradient(135deg, hsl(240 100% 99%), hsl(240 5% 96%));
     --gradient-hero: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(262 83% 58%) 50%, hsl(217 91% 75%) 100%);

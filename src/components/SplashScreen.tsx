@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrainIcon } from "lucide-react";
+import { CompassIcon } from "lucide-react";
 
 interface SplashScreenProps {
   onComplete: () => void;
@@ -7,12 +7,12 @@ interface SplashScreenProps {
 
 const SplashScreen = ({ onComplete }: SplashScreenProps) => {
   const [progress, setProgress] = useState(0);
-  const [loadingText, setLoadingText] = useState("Initializing AI Career Compass...");
+  const [loadingText, setLoadingText] = useState("Initializing Career Navigator...");
 
   useEffect(() => {
     const loadingSteps = [
-      { text: "Initializing AI Career Compass...", duration: 800 },
-      { text: "Loading AI models...", duration: 1000 },
+      { text: "Initializing Career Navigator...", duration: 800 },
+      { text: "Loading smart features...", duration: 1000 },
       { text: "Preparing career insights...", duration: 700 },
       { text: "Almost ready...", duration: 500 },
     ];
@@ -47,14 +47,14 @@ const SplashScreen = ({ onComplete }: SplashScreenProps) => {
         {/* Logo Animation */}
         <div className="relative">
           <div className="w-24 h-24 mx-auto rounded-2xl gradient-bg flex items-center justify-center animate-pulse">
-            <BrainIcon className="w-12 h-12 text-white animate-glow" />
+            <CompassIcon className="w-12 h-12 text-white animate-glow" />
           </div>
           <div className="absolute inset-0 w-24 h-24 mx-auto rounded-2xl bg-gradient-to-r from-primary/20 to-accent/20 blur-xl animate-float"></div>
         </div>
 
         {/* Brand */}
         <div className="space-y-2">
-          <h1 className="text-3xl font-bold gradient-text">AI Career Compass</h1>
+          <h1 className="text-3xl font-bold gradient-text">Career Navigator</h1>
           <p className="text-foreground/70">Find your path. Build your skills. Shape your future.</p>
         </div>
 
