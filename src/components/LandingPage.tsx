@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  BrainIcon, 
-  TrendingUpIcon, 
-  FileTextIcon, 
+import {
+  CompassIcon,
+  TrendingUpIcon,
+  FileTextIcon,
   MapIcon,
   SparklesIcon,
   ArrowRightIcon,
@@ -21,9 +21,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-              <BrainIcon className="w-5 h-5 text-white" />
+              <CompassIcon className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold gradient-text">AI Career Compass</span>
+            <span className="text-xl font-bold gradient-text">Career Navigator</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-foreground/70 hover:text-foreground transition-smooth">Features</a>
@@ -38,7 +38,7 @@ const LandingPage = () => {
       <section className="px-6 py-20 text-center relative overflow-hidden">
         <div className="max-w-4xl mx-auto relative z-10">
           <Badge className="mb-6 bg-primary/10 text-primary border-primary/20 animate-fade-in">
-            ✨ AI-Powered Career Guidance
+            ✨ Professional Career Guidance
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-fade-in" style={{animationDelay: '0.1s'}}>
@@ -48,7 +48,7 @@ const LandingPage = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-foreground/70 mb-8 max-w-3xl mx-auto animate-fade-in" style={{animationDelay: '0.2s'}}>
-            Upload your resume, get AI-powered feedback, and receive personalized career roadmaps 
+            Upload your resume, get expert feedback, and receive personalized career roadmaps
             that guide you toward your dream job.
           </p>
           
@@ -80,10 +80,10 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Powerful AI Features for Your <span className="gradient-text">Career Growth</span>
+              Powerful Features for Your <span className="gradient-text">Career Growth</span>
             </h2>
             <p className="text-xl text-foreground/70 max-w-3xl mx-auto">
-              Our AI analyzes thousands of successful career paths to give you personalized, 
+              Our platform analyzes thousands of successful career paths to give you personalized,
               actionable insights for your professional journey.
             </p>
           </div>
@@ -96,7 +96,7 @@ const LandingPage = () => {
               </div>
               <h3 className="text-xl font-semibold mb-3">Smart Resume Analysis</h3>
               <p className="text-foreground/70 leading-relaxed">
-                Get detailed feedback on your resume with AI-powered scoring, 
+                Get detailed feedback on your resume with intelligent scoring,
                 missing skills identification, and optimization suggestions.
               </p>
             </Card>
@@ -116,11 +116,11 @@ const LandingPage = () => {
             {/* AI Advisor */}
             <Card className="p-8 glass-card hover:scale-105 transition-spring group">
               <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center mb-6 group-hover:animate-glow">
-                <BrainIcon className="w-6 h-6 text-white" />
+                <CompassIcon className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">24/7 AI Career Advisor</h3>
+              <h3 className="text-xl font-semibold mb-3">24/7 Career Advisor</h3>
               <p className="text-foreground/70 leading-relaxed">
-                Chat with your personal AI career coach anytime. 
+                Chat with your personal career coach anytime.
                 Get instant answers to career questions and strategic advice.
               </p>
             </Card>
@@ -191,9 +191,9 @@ const LandingPage = () => {
               <div className="w-16 h-16 mx-auto mb-6 rounded-full gradient-bg flex items-center justify-center text-2xl font-bold text-white group-hover:scale-110 transition-spring">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-3">AI Analysis</h3>
+              <h3 className="text-xl font-semibold mb-3">Smart Analysis</h3>
               <p className="text-foreground/70">
-                Our AI analyzes your resume and generates personalized insights and recommendations.
+                Our platform analyzes your resume and generates personalized insights and recommendations.
               </p>
             </div>
 
@@ -216,7 +216,7 @@ const LandingPage = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Why Choose <span className="gradient-text">AI Career Compass</span>
+              Why Choose <span className="gradient-text">Career Navigator</span>
             </h2>
           </div>
 
@@ -259,8 +259,8 @@ const LandingPage = () => {
               <div className="flex items-start space-x-4">
                 <SparklesIcon className="w-6 h-6 text-accent mt-1 flex-shrink-0" />
                 <div>
-                  <h3 className="font-semibold mb-1">AI-Powered</h3>
-                  <p className="text-foreground/70">Leverages latest AI technology for accurate insights</p>
+                  <h3 className="font-semibold mb-1">Smart Technology</h3>
+                  <p className="text-foreground/70">Leverages latest technology for accurate insights</p>
                 </div>
               </div>
               
@@ -283,7 +283,7 @@ const LandingPage = () => {
             Ready to <span className="gradient-text">Transform Your Career?</span>
           </h2>
           <p className="text-xl text-foreground/70 mb-8">
-            Join thousands of professionals who have accelerated their careers with AI-powered guidance.
+            Join thousands of professionals who have accelerated their careers with expert guidance.
           </p>
           
           <Button className="hero-button group mb-4">
@@ -302,9 +302,9 @@ const LandingPage = () => {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
             <div className="w-6 h-6 rounded-lg gradient-bg flex items-center justify-center">
-              <BrainIcon className="w-4 h-4 text-white" />
+              <CompassIcon className="w-4 h-4 text-white" />
             </div>
-            <span className="font-semibold gradient-text">AI Career Compass</span>
+            <span className="font-semibold gradient-text">Career Navigator</span>
           </div>
           <div className="flex space-x-6 text-sm text-foreground/70">
             <a href="#" className="hover:text-foreground transition-smooth">Privacy</a>
